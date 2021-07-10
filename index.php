@@ -1,0 +1,10 @@
+<?php require('components/head.inc.php');?>
+<?php include('components/navbar.inc.php');?>
+<?php include('components/header.inc.php');?>
+<?php include('components/companies.inc.php');?>
+<?php include('components/feature.inc.php');?>
+<?php include('components/icons.inc.php');?>
+<?php include('components/gallery.inc.php');?>
+<?php include('components/services.inc.php');?>
+<?php include('components/contact.inc.php');?>
+<?php include('components/footer.inc.php')?>
