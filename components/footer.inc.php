@@ -1,6 +1,7 @@
-    <footer class="gradient">
+    <footer class="gradient py-4">
         <div class="container-fluid text-center">
-            <h4>Strona została zakodowana przez Jacka Maciejak</h4>
+            <h6 class="mb-0">Strona została zakodowana przez Jacka Maciejaka
+            </h6>
         </div>
     </footer>
 

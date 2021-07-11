@@ -1,4 +1,5 @@
-<section class="contact">
+<section class="contact"
+    id="kontakt">
     <div class="container pb-5">
         <div class="row align-items-center justify-contend-center pb-5">
             <div class="
@@ -21,12 +22,12 @@
 
                 </div>
                 <button type="button"
-                    class="btn btn-primary">Primary</button>
+                    class="btn btn-primary">Kontakt</button>
             </div>
             <div class="col-md-6">
-                <img src="img/contact.svg"
-                    class="img-fluid"
-                    alt="">
+                <img src="img/email.svg"
+                    class="img-fluid w-100"
+                    alt="email">
             </div>
         </div>
     </div>

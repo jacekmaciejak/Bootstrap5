@@ -13,8 +13,12 @@
     <link rel="stylesheet"
         href="css/styles.css">
 
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">

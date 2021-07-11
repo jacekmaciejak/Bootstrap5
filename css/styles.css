@@ -1,19 +1,17 @@
 html,
 body {
     height: 100%;
-    font-size: 1rem;
-    font-family: 'Montserrat',
+    font-family: 'Allerta Stencil',
         sans-serif;
+    letter-spacing: 1px;
 }
 
 p {
-    font-size: 1.25rem;
-
+    font-size: 1.5rem;
 }
 
 .page-header {
     margin-top: 5rem;
-    font-size: 1.25rem;
     color: #fff;
 }
 
@@ -22,25 +20,23 @@ p {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 49, 53, 1) 0%, rgba(66, 124, 221, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
-.feature {
+.about {
     color: #fff;
 }
 
-.feature ul {
-    list-style-type: none;
-    font-size: 1.25rem;
+.about p {
+    text-align: justify;
 }
 
-.feature ul li {
-    line-height: 1.5rem;
-    margin-bottom: 1rem;
-
+.about p::first-letter {
+    font-weight: bold;
+    font-size: 2rem;
 }
 
-.feature ul li i {
-    margin-right: 1rem;
-
+.about p span {
+    margin-left: 20px;
 }
+
 
 .icon {
     color: #fff;
@@ -71,5 +67,117 @@ footer {
     color: #fff;
     margin: 0;
     padding: 1rem;
-    font-size: 1rem;
 }
+
+/*---------------------*/
+/*-------CARDS----START----*/
+/*---------------------*/
+.img--hover {
+    position: relative;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+}
+
+.img--hover:hover {
+    box-sizing: border-box;
+    transform: scale(1.3);
+    transition: all .2s linear;
+}
+
+.card__cont {
+    position: relative;
+    display: grid;
+    align-items: center;
+    z-index: 2;
+    padding: 30px;
+
+}
+
+.card__cont::before,
+.card__cont::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.card__cont::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scaleX(0);
+}
+
+.card__cont:hover:before {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.card__cont::after {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scaleY(0);
+
+}
+
+.card__cont:hover:after {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.card__cont ul {
+    list-style-type: circle;
+}
+
+.card__button {
+    cursor: pointer;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #fff;
+    position: absolute;
+    overflow: hidden;
+    letter-spacing: 2px;
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 10px auto 0;
+    position: relative;
+    z-index: 100;
+}
+
+.card__button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #fff, transparent);
+    transition: .5s;
+
+}
+
+.card__button::before:hover {
+    background: linear-gradient(90deg, #fff, #fff, #fff);
+
+}
+
+
+.card__button:hover:before,
+.card__button:active:before,
+.card__button:focus:before {
+    left: 100%;
+}
+
+/*---------------------*/
+/*------CARDS----END----*/
+/*---------------------*/

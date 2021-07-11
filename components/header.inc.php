@@ -2,21 +2,22 @@
     <div class="container pt-5">
         <div class="row justify-contend-center align-items-center">
             <div class="col-md-6">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Possimus, ut.</h2>
-                <p class="py-4">Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit.
-                    Magni sit minima minus voluptatem ut architecto atque.
-                    Quasi possimus laboriosam sapiente.</p>
+                <h1 class="text-uppercase fw-bold">Front-end developer
+                </h1>
+                <h2>Jacek Maciejak</h2>
+                <p class="py-4">Witaj, jestem front-end developerem mieszkającym
+                    w Warszawie.
+                    Zapraszam Cię do zapoznania z moimi projektami. </p>
                 <button type="button"
-                    class="btn btn-outline-success btn-large">Success</button>
+                    class="card__button btn-large">Blog</button>
                 <button type="button"
-                    class="btn btn-outline-warning btn-large">Warning</button>
+                    class="card__button btn-large">Kontakt</button>
+
             </div>
             <div class="col-md-6"><img class="w-100"
                     src="
-                    img/email.svg"
-                    alt="email"></div>
+                    img/title.svg"
+                    alt="title"></div>
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg"

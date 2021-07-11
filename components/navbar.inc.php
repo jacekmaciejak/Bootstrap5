@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-0 my-0">
     <div class="container">
         <a class="navbar-brand"
-            href="index.php"><img src="img/logo.svg"
+            href="index.php">Jacek Maciejak<img src="img/logo.svg"
                 class='w-25'
                 alt="logo"></a>
         <button class="navbar-toggler"
@@ -13,21 +13,29 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end"
+        <div class="collapse navbar-collapse w-100 justify-content-end"
             id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav w-75 justify-content-around">
                 <li class="nav-item">
                     <a class="nav-link active"
                         aria-current="page"
-                        href="index.php">Home</a>
+                        href="index.php">Projekty</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                        href="services.php">Services</a>
+                        href="services.php">Technologie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                        href="contact.php">Kontakt</a>
+                        href="contact.php">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="blog.php">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="#kontakt">Kontakt</a>
                 </li>
 
             </ul>
