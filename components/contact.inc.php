@@ -4,25 +4,47 @@
         <div class="row align-items-center justify-contend-center pb-5">
             <div class="
                 col-md-6">
-                <h1>Lorem, ipsum dolor.</h1>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1"
-                        class="form-label">Email address</label>
-                    <input type="email"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1"
-                        class="form-label">Example textarea</label>
-                    <textarea class="form-control"
-                        id="exampleFormControlTextarea1"
-                        rows="3"></textarea>
-
-                </div>
-                <button type="button"
-                    class="btn btn-primary">Kontakt</button>
+                <form class="form"
+                    autocomplete="off"
+                    method="post"
+                    action="kontakt.php">
+                    <div class="form__group">
+                        <input type="text"
+                            class="form__input"
+                            placeholder="Imię i nazwisko"
+                            id="name"
+                            name="name"
+                            required />
+                        <label for="name"
+                            class="form__label">Imię i nazwisko</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="email"
+                            class="form__input"
+                            placeholder="E-mail"
+                            id="email"
+                            name="email"
+                            required />
+                        <label for="email"
+                            class="form__label">Email</label>
+                    </div>
+                    <div class="form__group">
+                        <textarea name="message"
+                            id="message"
+                            cols="50"
+                            rows="6"
+                            class="form__input"
+                            placeholder="Wiadomość"
+                            required></textarea>
+                    </div>
+                    <div class="form__group">
+                        <button class="email__button"
+                            name="submit"
+                            type="submit">
+                            Wyślij &rarr;
+                        </button>
+                    </div>
+                </form>
             </div>
             <div class="col-md-6">
                 <img src="img/email.svg"

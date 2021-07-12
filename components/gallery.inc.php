@@ -20,13 +20,13 @@
         </div>
         <div class="row my-3 g-3">
             <div class="col-md-4"><img src="img/img1.jpg"
-                    class="img-fluid h-100"
+                    class="img-fluid"
                     alt="gallery"></div>
             <div class="col-md-4 "><img src="img/img2.jpg"
-                    class="img-fluid h-100"
+                    class="img-fluid"
                     alt="gallery"></div>
             <div class="col-md-4"><img src="img/img3.jpg"
-                    class="img-fluid h-100"
+                    class="img-fluid"
                     alt="gallery"></div>
         </div>
         <div class="row mt-5 ">
