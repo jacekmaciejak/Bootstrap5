@@ -20,6 +20,61 @@ p {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 49, 53, 1) 0%, rgba(66, 124, 221, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
+/*----------------NAVBAR----START----------------*/
+/*----------------NAVBAR----START----------------*/
+/*----------------NAVBAR----START----------------*/
+/*----------------NAVBAR----START----------------*/
+/*----------------NAVBAR----START----------------*/
+.navbar-brand span {
+    position: relative;
+}
+
+.navbar-brand span:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    height: 2px;
+    background: #05CEFD;
+    transition: all .4s linear;
+    width: 0;
+    bottom: -10px;
+}
+
+.navbar-brand span:hover:after {
+    width: 100%;
+    left: 0px;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 !important;
+}
+
+.nav-link:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    height: 2px;
+    background: #05CEFD;
+    transition: all .4s linear;
+    width: 0;
+    bottom: -10px;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    left: 0px;
+}
+
+
+
+/*----------------NAVBAR----END----------------*/
+/*----------------NAVBAR----END----------------*/
+/*----------------NAVBAR----END----------------*/
+/*----------------NAVBAR----END----------------*/
+/*----------------NAVBAR----END----------------*/
+
+
 .about {
     color: #fff;
 }

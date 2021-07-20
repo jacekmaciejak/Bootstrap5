@@ -1,61 +1,45 @@
-<!DOCTYPE html>
-<html lang="pl">
-
-<head>
-	<meta charset="UTF-8">
-	<title>Jacek Maciejak</title>
-	<meta name="description"
-		content="Jacek Maciejak portfolio, projects">
-	<meta name="keywords"
-		content="HTML, CSS, SASS, SCSS, JavaScript, JQuery">
-	<meta name="author"
-		content="Jacek Maciejak">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet"
-		href="style.css">
-	<link
-		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
-		rel="stylesheet">
-	<link rel="stylesheet"
-		href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-	<link rel="stylesheet"
-		href="https://unpkg.com/aos@next/dist/aos.css" />
-	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<link rel="apple-touch-icon"
-		sizes="180x180"
-		href="/apple-touch-icon.png">
-	<link rel="icon"
-		type="image/png"
-		sizes="32x32"
-		href="favicon/favicon-32x32.png">
-	<link rel="icon"
-		type="image/png"
-		sizes="16x16"
-		href="favicon/favicon-16x16.png">
-	<link rel="manifest"
-		href="/site.webmanifest">
-</head>
+<?php require('components/head.inc.php');?>
+<?php include('components/navbar.inc.php');?>
 
 <body>
-	<main>
-		<div class="conf">
-			<div class="conf_text">
-				<p>Twoja wiadomość została wysłana poprawnie.
-					<br>
-					Odpowiem tak szybko jak to możliwe.
-					<br>
-					Dziękuję i pozdrawiam.
-				</p>
+	<section class="about gradient"
+		style="margin-top:80px">
+		<svg xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 1440 200">
+			<path fill="#fff"
+				fill-opacity="1"
+				d="M0,128L48,128C96,128,192,128,288,117.3C384,107,480,85,576,64C672,43,768,21,864,37.3C960,53,1056,107,1152,112C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+			</path>
+		</svg>
+		<div class="container">
+			<div class="row  align-items-center">
+				<div class="col-md-5 text-center"><img src="img/confirm.svg"
+						alt="feature image"
+						class="img-fluid"></div>
+				<div class="col-md-7 px-5 justify-content-center">
+					<h1 class="text-center">Widomość została wysłana poprawnie.
+					</h1>
+					<p class="my-5"
+						style="text-align:center">
+						Odpowiem na wiadomość niezwłocznie po jej
+						przeczytaniu. </p>
+					<button class="card__button d-block my-5 text-uppercase"
+						type="button"
+						onclick="window.location.href='index.php'">Powrót na
+						stronę
+						główną</button>
+				</div>
 			</div>
-			<button class="conf_button"
-				type="button"
-				onclick="window.location.href='index.html'">Powrót na stronę
-				główną</button>
 		</div>
-	</main>
+		<svg xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 1440 170">
+			<path fill="#fff"
+				fill-opacity="1"
+				d="M0,128L48,128C96,128,192,128,288,117.3C384,107,480,85,576,64C672,43,768,21,864,37.3C960,53,1056,107,1152,112C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+			</path>
+		</svg>
+	</section>
+	<?php include('components/footer.inc.php')?>
 </body>
 
 </html>

@@ -8,3 +8,12 @@
 <?php include('components/services.inc.php');?>
 <?php include('components/contact.inc.php');?>
 <?php include('components/footer.inc.php')?>
+<script>
+    $(document).ready(function () {
+        $(".card__button").click(function () {
+            $(".page-header").animate(
+                backgroundColor: "#000"
+            )
+        })
+    })
+</script>

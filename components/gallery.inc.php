@@ -33,7 +33,7 @@
             <div class="col-md-12 text-center">
                 <button type="
                     button"
-                    class="btn btn-outline-warning btn-lg">Warning</button>
+                    class="animation btn btn-outline-warning btn-lg">Warning</button>
             </div>
         </div>
     </div>
