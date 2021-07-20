@@ -7,7 +7,7 @@
         </path>
     </svg>
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-center">
             <div class="
                 col-md-6">
                 <h1>Lorem, ipsum.</h1>
@@ -44,14 +44,16 @@
                     alt="programming"></div>
 
 
-            <div class="row mt-2">
+            <div class="row">
                 <div
                     class="col-md-6 d-flex align-items-center overflow-hidden px-0">
                     <img src="img/card_6.jpg"
                         class="img-fluid align-items-center img--hover h-100"
                         alt="programming"></div>
                 <div class="col-md-6 card__cont">
-                    <h3 class="text-center">Egzotyczne wakacje</h3>
+                    <h3 class="text-center text-uppercase">Egzotyczne wakacje
+                    </h3>
+                    <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
                     <ul>
                         <li>React</li>
@@ -66,9 +68,10 @@
                     </button>
                 </div>
             </div>
-            <div class="row mt-2">
-                <div class="col-md-6 card__cont">
-                    <h3 class="text-center">Ogrody</h3>
+            <div class="row">
+                <div class="col-md-6 card__cont order-2 order-sm-2 order-md-1">
+                    <h3 class="text-center text-uppercase">Ogrody</h3>
+                    <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
                     <ul>
                         <li>HTML5</li>
@@ -84,20 +87,21 @@
                         Zobacz projekt
                     </button>
                 </div>
-                <div
-                    class="col-md-6 d-flex align-items-center overflow-hidden px-0">
+                <div class="col-md-6 d-flex align-items-center overflow-hidden
+                    px-0 order-1 order-sm-1 order-md-2">
                     <img src="img/card_1.jpg"
                         class="img-fluid align-items-center img--hover h-100"
                         alt="programming"></div>
             </div>
-            <div class="row  mt-2">
+            <div class="row">
                 <div
                     class="col-md-6 d-flex align-items-center overflow-hidden px-0">
                     <img src="img/card_2.jpg"
-                        class="img-fluid align-items-center img--hover h-100"
+                        class="img-fluid w-100 h-100 align-items-center img--hover"
                         alt="programming"></div>
                 <div class="col-md-6 card__cont">
-                    <h3 class="text-center">Business site</h3>
+                    <h3 class="text-center text-uppercase">Business site</h3>
+                    <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
                     <ul>
                         <li>HTML5</li>
@@ -114,9 +118,10 @@
                     </button>
                 </div>
             </div>
-            <div class="row  mt-2">
-                <div class="col-md-6 card__cont">
-                    <h3 class="text-center">Restaurant</h3>
+            <div class="row">
+                <div class="col-md-6 card__cont order-2 order-sm-2 order-md-1">
+                    <h3 class="text-center text-uppercase">Restaurant</h3>
+                    <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
                     <ul>
                         <li>HTML5</li>
@@ -131,20 +136,22 @@
                         Zobacz projekt
                     </button>
                 </div>
-                <div
-                    class="col-md-6 d-flex align-items-center overflow-hidden px-0">
+                <div class="col-md-6 d-flex align-items-center overflow-hidden
+                    px-0 order-1 order-sm-1 order-md-2">
                     <img src="img/card_3.jpg"
-                        class="img-fluid align-items-center img--hover h-100"
+                        class="img-fluid align-items-center img--hover h-100 w-100"
                         alt="programming"></div>
             </div>
-            <div class="row  mt-2">
+            <div class="row">
                 <div
                     class="col-md-6 d-flex align-items-center overflow-hidden px-0">
                     <img src="img/card_4.jpg"
                         class="img-fluid align-items-center img--hover h-100 w-100"
                         alt="programming"></div>
                 <div class="col-md-6 card__cont">
-                    <h3 class="text-center">Veterinary clinic</h3>
+                    <h3 class="text-center text-uppercase">Veterinary clinic
+                    </h3>
+                    <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
                     <ul>
                         <li>HTML5</li>
