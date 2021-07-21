@@ -20,6 +20,14 @@ p {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 49, 53, 1) 0%, rgba(66, 124, 221, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
+.gradient--green {
+    background: rgb(10, 255, 165);
+    background: -webkit-linear-gradient(90deg, rgba(10, 255, 165, 1) 0%, rgba(0, 241, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*----------------NAVBAR----START----------------*/
 /*----------------NAVBAR----START----------------*/
 /*----------------NAVBAR----START----------------*/
@@ -92,12 +100,11 @@ p {
     margin-left: 20px;
 }
 
-
+/*-------PROJECTS-------*/
 .icon {
     color: #fff;
-    height: 5rem;
-    width: 5rem;
-    font-size: 1.75rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 100%;
     display: inline-flex;
     align-items: center;
@@ -105,10 +112,54 @@ p {
 
 }
 
-.icon svg {
-    height: 4rem;
-    width: 4rem;
+.icon--hover {
+    position: relative;
+    z-index: 3;
+    padding: 30px;
 }
+
+.icon--hover::before,
+.icon--hover::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.icon--hover::before {
+    border-top: 2px solid #0AFFA5;
+    border-bottom: 2px solid #0AFFA5;
+    transform: scaleX(0);
+}
+
+.icon--hover:hover:before {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.icon--hover::after {
+    border-left: 2px solid #0AFFA5;
+    border-right: 2px solid #0AFFA5;
+    transform: scaleY(0);
+
+}
+
+.icon--hover:hover:after {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+
+/*-------END-------*/
+/*-------END-------*/
+/*-------END-------*/
+
 
 .gallery {
     background-color: whitesmoke;
@@ -244,7 +295,7 @@ footer {
 
 #kontakt {
     position: relative;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 .form__input {
@@ -307,7 +358,7 @@ footer {
     background: transparent;
     position: relative;
     position: relative;
-    z-index: 9999;
+    /* z-index: 9999; */
     text-decoration: none;
     font-size: 16px;
     border-radius: 3px;

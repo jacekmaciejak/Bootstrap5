@@ -1,7 +1,7 @@
     <footer class="gradient py-4">
         <div class="container-fluid text-center">
             <h6 class="mb-0">Strona została zaprojektowana i zakodowana przez
-                Jacka Maciejaka
+                <span>Jacka Maciejaka</span>
             </h6>
         </div>
     </footer>
@@ -12,6 +12,7 @@
     </script>
     </script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 
     </body>
 

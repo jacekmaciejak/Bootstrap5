@@ -3,7 +3,7 @@
     <div class="container pb-5">
         <div class="row align-items-center justify-contend-center pb-5">
             <div class="
-                col-md-6">
+                 col-md-7 order-2 order-md-1">
                 <form class="form"
                     autocomplete="off"
                     method="post"
@@ -46,7 +46,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 order-1 order-md-2">
                 <img src="img/email.svg"
                     class="img-fluid w-100"
                     alt="email">

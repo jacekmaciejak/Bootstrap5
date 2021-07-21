@@ -9,7 +9,7 @@
         content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="css/bootstrap.css">
-    <title>Bootstrap5</title>
+    <title>Jacek Maciejak</title>
     <link rel="stylesheet"
         href="css/styles.css">
 

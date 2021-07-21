@@ -9,9 +9,11 @@
                     w Warszawie.
                     Zapraszam Cię do zapoznania z moimi projektami. </p>
                 <button type="button"
-                    class="card__button btn-large">Blog</button>
+                    class="card__button btn-large"
+                    onclick="window.location.href='blog.php'">Blog</button>
                 <button type="button"
-                    class="card__button btn-large">Kontakt</button>
+                    class="card__button btn-large"
+                    onclick="window.location.href='blog.php'">Kontakt</button>
 
             </div>
             <div class="col-md-6"><img class="w-100"

@@ -8,14 +8,16 @@
     </svg>
     <div class="container">
         <div class="row  align-items-center">
-            <div class="col-md-4 "><img src="img/feature.svg"
+            <div class="col-md-4 border-start border-bottom border-2">
+                <img src="img/feature.svg"
                     alt="feature image"
                     class="img-fluid"></div>
             <div class="col-md-8 px-5">
                 <h1 class="text-center">O MNIE</h1>
                 <p class="my-4"> <span>Witaj</span> na mojej stronie, w
                     codziennej pracy
-                    koduję w HTML5, CSS3 - SASS(SCSS), Bootstrap 4/5, WordPress,
+                    koduję w HTML5, CSS3 - SASS (SCSS), Bootstrap 4/5,
+                    WordPress,
                     Git,
                     Node.js oraz metodologi BEM. We
                     wszystkich projektach stosuję standardy Responsive Web
@@ -26,16 +28,6 @@
                     Potrafię dostosować się do wymagań projektu jak
                     również lubię współpracować w zespole. Z przyjemnością
                     nawiążę współpracę, która umożliwi mi dalszy rozwój. </p>
-                <!-- <ul>
-                    <li><i class="bi bi-arrow-bar-right"></i> Lorem ipsum
-                        dolor sit amet.</li>
-                    <li><i class="bi bi-arrow-bar-right"></i> Lorem ipsum
-                        dolor sit amet.</li>
-                    <li><i class="bi bi-arrow-bar-right"></i> Lorem ipsum
-                        dolor sit amet.</li>
-                    <li><i class="bi bi-arrow-bar-right"></i> Lorem ipsum
-                        dolor sit amet.</li>
-                </ul> -->
             </div>
 
         </div>
