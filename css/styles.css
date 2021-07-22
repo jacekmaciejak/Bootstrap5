@@ -21,8 +21,8 @@ p {
 }
 
 .gradient--green {
-    background: rgb(10, 255, 165);
-    background: -webkit-linear-gradient(90deg, rgba(10, 255, 165, 1) 0%, rgba(0, 241, 255, 1) 100%);
+    background: rgb(3, 177, 113);
+    background: -webkit-linear-gradient(90deg, rgb(3, 214, 137) 0%, rgb(3, 216, 228) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -100,7 +100,9 @@ p {
     margin-left: 20px;
 }
 
+/*----------------------*/
 /*-------PROJECTS-------*/
+/*----------------------*/
 .icon {
     color: #fff;
     height: 10rem;
@@ -109,7 +111,6 @@ p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .icon--hover {
@@ -175,9 +176,35 @@ footer {
     padding: 1rem;
 }
 
-/*---------------------*/
+/*-------------------------------*/
 /*-------TECHNOLOGY----START----*/
-/*---------------------*/
+/*-----------------------------*/
+.popover {
+    z-index: 20;
+    font-family: 'Allerta Stencil',
+        sans-serif;
+    border: 2px solid #0AFFA5;
+}
+
+.popover-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.popover-body {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.bs-popover-top>.popover-arrow::before {
+    border-top-color: #0AFFA5;
+}
+
+.bs-popover-bottom>.popover-arrow::before {
+    border-bottom-color: #0AFFA5;
+
+}
 
 .panel {
     position: relative;

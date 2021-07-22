@@ -6434,10 +6434,9 @@ fieldset:disabled .btn {
 .popover {
   position: absolute;
   top: 0;
-  left: 0
-    /* rtl:ignore */
-  ;
-  z-index: 1070;
+  left: 0;
+  /* rtl:ignore */
+  z-index: 70;
   display: block;
   max-width: 276px;
   font-family: var(--bs-font-sans-serif);
@@ -6571,6 +6570,8 @@ fieldset:disabled .btn {
 }
 
 .popover-header {
+  text-align: center;
+  font-weight: bold;
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 1rem;
