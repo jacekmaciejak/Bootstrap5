@@ -176,6 +176,248 @@ footer {
 }
 
 /*---------------------*/
+/*-------TECHNOLOGY----START----*/
+/*---------------------*/
+
+.panel {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel div {
+    margin: 20px 50px;
+}
+
+.fab {
+    font-size: 50px;
+    color: #262626;
+    line-height: 80px !important;
+    transition: .5s;
+}
+
+.text__icon {
+    font-size: 30px;
+    font-weight: bold;
+    color: #262626;
+    line-height: 1 !important;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.panel div a {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+    transition: .5s;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+.panel div a p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.panel div a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 80px;
+    width: 20px;
+    background-color: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+.panel div a:after {
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background-color: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+.panel div a:hover,
+.panel div a:active,
+.panel div a:focus {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgba(2, 209, 254, 1);
+}
+
+.panel div a:active {
+    top: 5px
+}
+
+.panel div:hover .fab,
+.panel div:hover .text__icon {
+    color: #fff;
+}
+
+.panel div:hover:nth-child(1) a {
+    background: #3b5999;
+}
+
+.panel div:hover:nth-child(1) a:before {
+    background: #2e4a86;
+}
+
+.panel div:hover:nth-child(1) a:after {
+    background: #4a69ad;
+}
+
+.panel div:hover:nth-child(2) a {
+    background: #e44d26;
+}
+
+.panel div:hover:nth-child(2) a:before {
+    background: #cc3d19;
+}
+
+.panel div:hover:nth-child(2) a:after {
+    background: #e96949;
+}
+
+.panel div:hover:nth-child(3) a {
+    background: #f7e018;
+}
+
+.panel div:hover:nth-child(3) a:before {
+    background: #ddc808;
+}
+
+.panel div:hover:nth-child(3) a:after {
+    background: #f8e53a;
+}
+
+.panel div:hover:nth-child(4) a {
+    background: #0077b5;
+}
+
+.panel div:hover:nth-child(4) a:before {
+    background: #036aa0;
+}
+
+.panel div:hover:nth-child(4) a:after {
+    background: #0d82bf;
+}
+
+.panel div:hover:nth-child(5) a {
+    background: #1f62ae;
+}
+
+.panel div:hover:nth-child(5) a:before {
+    background: #174982;
+}
+
+.panel div:hover:nth-child(5) a:after {
+    background: #267ad9;
+}
+
+.panel div:hover:nth-child(6) a {
+    background: #8a61c1;
+}
+
+.panel div:hover:nth-child(6) a:before {
+    background: #7847b8;
+}
+
+.panel div:hover:nth-child(6) a:after {
+    background: #956cc6;
+}
+
+.panel div:hover:nth-child(7) a {
+    background: #33ff33;
+}
+
+.panel div:hover:nth-child(7) a:before {
+    background: #00e600;
+}
+
+.panel div:hover:nth-child(7) a:after {
+    background: #66ff66;
+}
+
+.panel div:hover:nth-child(8) a {
+    background: #ff5500;
+}
+
+.panel div:hover:nth-child(8) a:before {
+    background: #cc4400;
+}
+
+.panel div:hover:nth-child(8) a:after {
+    background: #ff7733;
+}
+
+.panel div:hover:nth-child(9) a {
+    background: #ff0066;
+}
+
+.panel div:hover:nth-child(9) a:before {
+    background: #cc0052;
+}
+
+.panel div:hover:nth-child(9) a:after {
+    background: #ff3385;
+}
+
+.panel div:hover:nth-child(10) a {
+    background: #cf649a;
+}
+
+.panel div:hover:nth-child(10) a:before {
+    background: #c33c80;
+}
+
+.panel div:hover:nth-child(10) a:after {
+    background: #db8ab3;
+}
+
+.panel div:hover:nth-child(11) a {
+    background: #e4405f;
+}
+
+.panel div:hover:nth-child(11) a:before {
+    background: #d02d4c;
+}
+
+.panel div:hover:nth-child(11) a:after {
+    background: #f1395c;
+}
+
+.panel div:hover:nth-child(12) a {
+    background: #61dbfb;
+}
+
+.panel div:hover:nth-child(12) a:before {
+    background: #38d3fa;
+}
+
+.panel div:hover:nth-child(12) a:after {
+    background: #83e4fc;
+}
+
+
+
+/*---------------------*/
+/*-------TECHNOLOGY----END----*/
+/*---------------------*/
+
+/*---------------------*/
 /*-------CARDS----START----*/
 /*---------------------*/
 .img--hover {

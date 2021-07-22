@@ -2,8 +2,9 @@
         <div class="container text-center">
                 <div class="row g-3 text-uppercase">
                         <div class="col">
-                                <a href=""
-                                        class="text-decoration-none">
+                                <a href="https://jacekmaciejak.github.io/dream-holidays/"
+                                        class="text-decoration-none"
+                                        target="_blank">
                                         <div class="icon">
                                                 <img class="img-fluid"
                                                         src="img/vacation.svg"
@@ -15,8 +16,9 @@
                                 </a>
                         </div>
                         <div class="col">
-                                <a href=""
-                                        class="text-decoration-none">
+                                <a href="https://jacekmaciejak.github.io/interior-finishes/"
+                                        class="text-decoration-none"
+                                        target="_blank">
                                         <div class="icon">
                                                 <img class="img-fluid"
                                                         src="img/garden.svg"
@@ -37,7 +39,8 @@
                         </div>
 
                         <div class="col">
-                                <a href=""
+                                <a href="https://jacekmaciejak.github.io/Business-Site/"
+                                        target="_blank"
                                         class="text-decoration-none">
                                         <div class="icon">
                                                 <img class="img-fluid"
@@ -60,7 +63,8 @@
                                 </a>
                         </div>
                         <div class="col">
-                                <a href=""
+                                <a href="https://jacekmaciejak.github.io/Veterinary-clinic/."
+                                        target="_blank"
                                         class="text-decoration-none">
                                         <div class="icon">
                                                 <img class="img-fluid"
@@ -82,7 +86,8 @@
                                 </a>
                         </div>
                         <div class="col">
-                                <a href=""
+                                <a href="https://jacekmaciejak.github.io/Restaurant/"
+                                        target="_blank"
                                         class="text-decoration-none">
                                         <div class="icon">
                                                 <img class="img-fluid"
