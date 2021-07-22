@@ -13,7 +13,7 @@
                     onclick="window.location.href='blog.php'">Blog</button>
                 <button type="button"
                     class="card__button btn-large"
-                    onclick="window.location.href='blog.php'">Kontakt</button>
+                    onclick="window.location.href='#kontakt'">Kontakt</button>
 
             </div>
             <div class="col-md-6"><img class="w-100"

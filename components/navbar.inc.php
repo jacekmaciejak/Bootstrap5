@@ -20,23 +20,23 @@
                 <li class="nav-item">
                     <a class="nav-link active"
                         aria-current="page"
-                        href="index.php">Projekty</a>
+                        href="index.php #o-mnie">O mnie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                        href="services.php">Technologie</a>
+                        href="index.php #technologie">Technologie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                        href="contact.php">O mnie</a>
+                        href="index.php #projekty">Projekty</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                        href="confirm.php">Blog</a>
+                        href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                        href="#kontakt">Kontakt</a>
+                        href="index.php #kontakt">Kontakt</a>
                 </li>
 
             </ul>

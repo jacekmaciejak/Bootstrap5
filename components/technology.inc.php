@@ -1,4 +1,5 @@
-<section class="technology">
+<section id='technologie'
+    class="technology">
     <div class="container">
         <div class="row">
             <div class="panel w-100 mx-auto">

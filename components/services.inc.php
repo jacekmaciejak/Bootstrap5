@@ -1,4 +1,5 @@
-<section class="services gradient">
+<section id='projekty'
+    class="services gradient">
     <svg xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 250">
         <path fill="#fff"

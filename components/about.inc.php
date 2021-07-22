@@ -1,4 +1,5 @@
-<section class="about gradient">
+<section id="o-mnie"
+    class="about gradient">
     <svg xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 200">
         <path fill="#fff"
