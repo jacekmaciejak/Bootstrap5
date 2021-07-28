@@ -4,6 +4,7 @@
                 <span>Jacka Maciejaka</span>
             </h6>
         </div>
+        <?php include('components/socialIcons.inc.php');?>
     </footer>
 
 
@@ -11,6 +12,7 @@
         src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js">
     </script>
     </script>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
 

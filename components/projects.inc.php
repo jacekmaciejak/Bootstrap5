@@ -1,6 +1,9 @@
 <section class="projects">
         <div class="container text-center">
                 <div class="row g-3 text-uppercase">
+                        <h1 class="text-center text-uppercase">
+                                projekty
+                        </h1>
                         <div class="col">
                                 <a href="https://jacekmaciejak.github.io/dream-holidays/"
                                         class="text-decoration-none"

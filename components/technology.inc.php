@@ -1,7 +1,9 @@
-<section id='technologie'
-    class="technology">
+<section id="technologie"
+    class="technology pt-5">
     <div class="container">
         <div class="row">
+            <h1 class="text-center text-uppercase my-5">technologie
+            </h1>
             <div class="panel w-100 mx-auto">
 
                 <div role="button"
@@ -61,7 +63,9 @@
                     title="RESPONSIVE WEB DESIGN"
                     data-bs-content="Poziom znajomości: dobry">
                     <a href="#popup__rwd"
-                        class="text__icon"><img class='img-fluid w-75 mx-auto'
+                        class="text__icon"><img class=' img-fluid
+                w-75
+                mx-auto'
                             src="img/rwd.png"
                             alt="image" /></a>
                 </div>

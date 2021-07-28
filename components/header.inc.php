@@ -1,4 +1,5 @@
-<header class="page-header gradient h-auto">
+<header id="page-header"
+    class="page-header gradient h-auto pt-5">
     <div class="container pt-5">
         <div class="row justify-contend-center align-items-center">
             <div class="col-md-6">
@@ -14,12 +15,12 @@
                 <button type="button"
                     class="card__button btn-large"
                     onclick="window.location.href='#kontakt'">Kontakt</button>
-
             </div>
             <div class="col-md-6"><img class="w-100"
                     src="
                     img/title.svg"
                     alt="title"></div>
+            <?php include('components/socialIcons.inc.php');?>
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg"

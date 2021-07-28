@@ -1,11 +1,11 @@
 <?php require('components/head.inc.php');?>
 <?php require('components/navbar.inc.php');?>
 <section id='blog'
-    class="container col-md-12 blog d-flex align-items-center">
+    class="container col-md-12 blog d-grid align-items-center my-5">
     <div
-        class="row h-75 text-center mt-5 d-grid justify-content-center align-items-center flex-wrap">
+        class="row text-center my-5 d-grid justify-content-center align-items-center">
         <div
-            class="blog__wrapper d-flex align-items-center justify-content-center flex-wrap">
+            class="blog__wrapper d-flex align-items-center justify-content-center flex-wrap my-4">
             <figure class='col-md-6'>
                 <img class='img-fluid'
                     src="img/blog.svg"

@@ -2,6 +2,9 @@
     id="kontakt">
     <div class="container pb-5">
         <div class="row align-items-center justify-contend-center pb-5">
+            <h1 id='technologie'
+                class="text-center text-uppercase mb-5">kontakt
+            </h1>
             <div class="
                  col-md-7 order-2 order-md-1">
                 <form class="form"

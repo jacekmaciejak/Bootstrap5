@@ -9,6 +9,7 @@
     </svg>
     <div class="container">
         <div class="row align-items-center justify-content-center">
+            <h1 class="text-center text-uppercase mb-5">projekty</h1>
             <div class="row">
                 <div
                     class="col-md-6 d-flex align-items-center overflow-hidden px-0">

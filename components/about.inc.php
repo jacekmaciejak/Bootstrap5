@@ -9,12 +9,15 @@
     </svg>
     <div class="container">
         <div class="row  align-items-center">
-            <div class="col-md-4 border-start border-bottom border-2">
+            <!-- <div class=" border-start border-bottom border-2 ">
                 <img src="img/feature.svg"
                     alt="feature image"
-                    class="img-fluid"></div>
-            <div class="col-md-8 px-5">
+                    class="img-fluid float-left"></div> -->
+            <div class=" px-5">
                 <h1 class="text-center">O MNIE</h1>
+                <img src="img/feature.svg"
+                    alt="feature image"
+                    class="img-fluid float-end">
                 <p class="my-4"> <span>Witaj</span> na mojej stronie, w
                     codziennej pracy
                     koduję w HTML5, CSS3 - SASS (SCSS), Bootstrap 4/5,

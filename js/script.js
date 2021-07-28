@@ -1,5 +1,7 @@
 const projects = document.querySelector('.projects')
-const allPopoversHeaders = [...document.querySelectorAll('.popover-header')]
+// const allPopoversHeaders = [...document.querySelectorAll('.popover-header')]
+const imgHeader = document.querySelector('.page-header img')
+const tl = gsap.timeline({ defaults: { ease: 'power1.out' } })
 
 //Add gradient class to title in section project
 const projectsH5 = projects.querySelectorAll('h5')
@@ -29,3 +31,11 @@ const popover = new bootstrap.Popover(document.querySelector('.popover-dismiss')
 })
 
 
+    // //Animations
+    // tl.fromTo("nav", { opacity: 1 }, { opacity: 0, duration: 1 })
+    // gsap.to(".navbar-brand", { duration: 1, x: 200 })
+
+
+    //-------------------------------------
+    //----------------NAVBAR---------------------
+    //-------------------------------------
