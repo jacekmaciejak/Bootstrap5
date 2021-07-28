@@ -28,7 +28,17 @@
         referrerpolicy="no-referrer"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js">
     </script>
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden";
+        });
+    </script>
 
 </head>
 
 <body>
+    <div class="loader">
+        <img src="img/loading.gif"
+            alt="Loading...">
+    </div>

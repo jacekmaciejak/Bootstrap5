@@ -26,6 +26,26 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
+.loader {
+    position: fixed;
+    z-index: 9999999999999;
+    width: 100vw;
+    height: 100vh;
+    background-color: #25a3ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    z-index: -1;
+    display: none;
+    visibility: hidden;
+}
+
 /*----------------NAVBAR----START----------------*/
 /*----------------NAVBAR----START----------------*/
 /*----------------NAVBAR----START----------------*/

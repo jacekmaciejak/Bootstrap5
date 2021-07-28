@@ -1,3 +1,4 @@
+
 const projects = document.querySelector('.projects')
 // const allPopoversHeaders = [...document.querySelectorAll('.popover-header')]
 const imgHeader = document.querySelector('.page-header img')
@@ -31,11 +32,5 @@ const popover = new bootstrap.Popover(document.querySelector('.popover-dismiss')
 })
 
 
-    // //Animations
-    // tl.fromTo("nav", { opacity: 1 }, { opacity: 0, duration: 1 })
-    // gsap.to(".navbar-brand", { duration: 1, x: 200 })
 
 
-    //-------------------------------------
-    //----------------NAVBAR---------------------
-    //-------------------------------------
