@@ -313,6 +313,10 @@ p {
     color: #fff;
 }
 
+.about img {
+    float: right;
+}
+
 .about p {
     text-align: justify;
 }
@@ -324,6 +328,18 @@ p {
 
 .about p span {
     margin-left: 20px;
+}
+
+@media (max-width:800px) {
+    .about p {
+        text-align: start;
+    }
+
+    .about img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 /*----------------------*/
@@ -400,7 +416,6 @@ p {
 .technology h1,
 .contact h1 {
     color: rgb(50, 50, 50);
-
 }
 
 footer {

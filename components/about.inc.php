@@ -9,21 +9,15 @@
     </svg>
     <div class="container">
         <div class="row  align-items-center">
-            <!-- <div class=" border-start border-bottom border-2 ">
-                <img src="img/feature.svg"
-                    alt="feature image"
-                    class="img-fluid float-left"></div> -->
-            <div class=" px-5">
+            <div class="p-3">
                 <h1 class="text-center">O MNIE</h1>
                 <img src="img/feature.svg"
                     alt="feature image"
-                    class="img-fluid float-end">
-                <p class="my-4"> <span>Witaj</span> na mojej stronie, w
-                    codziennej pracy
-                    koduję w HTML5, CSS3 - SASS (SCSS), Bootstrap 4/5,
-                    WordPress,
-                    Git,
-                    Node.js oraz metodologi BEM. We
+                    class="img-fluid">
+                <p class="my-4"> <span>Witaj</span> na mojej stronie.
+                    W codziennej pracy koduję w HTML5, CSS3 - SASS (SCSS),
+                    Bootstrap 4/5, WordPress, Git, Node.js oraz metodologi BEM.
+                    We
                     wszystkich projektach stosuję standardy Responsive Web
                     Design oraz Grid i Flexbox. Codziennie ciężko pracuję aby
                     zdobywać nowe doświadczenie w kodowaniu stron internetowych
@@ -33,7 +27,6 @@
                     również lubię współpracować w zespole. Z przyjemnością
                     nawiążę współpracę, która umożliwi mi dalszy rozwój. </p>
             </div>
-
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg"
