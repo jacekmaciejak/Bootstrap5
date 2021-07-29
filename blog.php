@@ -11,7 +11,7 @@
                     src="img/blog.svg"
                     alt="">
             </figure>
-            <h1 class='col-md-6'>STRONA W BUDOWIE</h1>
+            <h1 class='col-md-6 fw-bold fs-1 mb-5'>STRONA W BUDOWIE</h1>
         </div>
         <?php require('components/projects.inc.php');?>
     </div>
