@@ -10,11 +10,13 @@
     <div class="container">
         <div class="row  align-items-center">
             <div class="p-3">
-                <h1 class="text-center">O MNIE</h1>
+                <h1 class="text-center gs_reveal gs_reveal_fromUp">O MNIE
+                </h1>
                 <img src="img/feature.svg"
                     alt="feature image"
-                    class="img-fluid">
-                <p class="my-4"> <span>Witaj</span> na mojej stronie.
+                    class="img-fluid gs_reveal gs_reveal_fromRight">
+                <p class="my-4 gs_reveal gs_reveal_fromLeft"> <span>Witaj</span>
+                    na mojej stronie.
                     W codziennej pracy koduję w HTML5, CSS3 - SASS (SCSS),
                     Bootstrap 4/5, WordPress, Git, Node.js oraz metodologi BEM.
                     We

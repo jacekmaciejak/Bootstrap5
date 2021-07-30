@@ -1,4 +1,4 @@
-<section class="projects">
+<section class="projects gs_reveal opacity_anim">
         <div class="container text-center">
                 <div class="row g-3 text-uppercase">
                         <h1 class="text-center text-uppercase">

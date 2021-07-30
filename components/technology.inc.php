@@ -1,5 +1,5 @@
 <section id="technologie"
-    class="technology pt-5">
+    class="technology pt-5 gs_reveal opacity_anim">
     <div class="container">
         <div class="row">
             <h1 class="text-center text-uppercase my-5">technologie

@@ -11,12 +11,12 @@
         <div class="row align-items-center justify-content-center">
             <h1 class="text-center text-uppercase mb-5">projekty</h1>
             <div class="row">
-                <div
-                    class="col-md-6 d-flex align-items-center overflow-hidden px-0">
+                <div class="col-md-6 d-flex align-items-center overflow-hidden
+                    px-0 gs_reveal gs_reveal_fromLeft">
                     <img src="img/card_6.jpg"
                         class="img-fluid align-items-center img--hover h-100"
                         alt="programming"></div>
-                <div class="col-md-6 card__cont">
+                <div class="col-md-6 card__cont gs_reveal gs_reveal_fromRight">
                     <h3 class="text-center text-uppercase">Egzotyczne wakacje
                     </h3>
                     <hr>
@@ -35,7 +35,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 card__cont order-2 order-sm-2 order-md-1">
+                <div
+                    class="col-md-6 card__cont order-2 order-sm-2 order-md-1 gs_reveal gs_reveal_fromLeft">
                     <h3 class="text-center text-uppercase">Ogrody</h3>
                     <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
@@ -54,18 +55,21 @@
                     </button>
                 </div>
                 <div class="col-md-6 d-flex align-items-center overflow-hidden
-                    px-0 order-1 order-sm-1 order-md-2">
+                    px-0 order-1 order-sm-1 order-md-2 gs_reveal
+                    gs_reveal_fromRight">
                     <img src="img/card_1.jpg"
                         class="img-fluid align-items-center img--hover h-100"
                         alt="programming"></div>
             </div>
             <div class="row">
-                <div
-                    class="col-md-6 d-flex align-items-center overflow-hidden px-0">
+                <div class="col-md-6 d-flex align-items-center overflow-hidden
+                    px-0 gs_reveal gs_reveal_fromLeft gs_reveal
+                    gs_reveal_fromLeft">
                     <img src="img/card_2.jpg"
                         class="img-fluid w-100 h-100 align-items-center img--hover"
                         alt="programming"></div>
-                <div class="col-md-6 card__cont">
+                <div
+                    class="col-md-6 card__cont gs_reveal gs_reveal_fromRight gs_reveal gs_reveal_fromRight">
                     <h3 class="text-center text-uppercase">Wizytówka</h3>
                     <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
@@ -85,7 +89,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 card__cont order-2 order-sm-2 order-md-1">
+                <div
+                    class="col-md-6 card__cont order-2 order-sm-2 order-md-1 gs_reveal gs_reveal_fromLeft">
                     <h3 class="text-center text-uppercase">Restauracja</h3>
                     <hr>
                     <p>Strona została zakodowana przy użyciu:</p>
@@ -103,18 +108,19 @@
                     </button>
                 </div>
                 <div class="col-md-6 d-flex align-items-center overflow-hidden
-                    px-0 order-1 order-sm-1 order-md-2">
+                    px-0 order-1 order-sm-1 order-md-2 gs_reveal
+                    gs_reveal_fromRight">
                     <img src="img/card_3.jpg"
                         class="img-fluid align-items-center img--hover h-100 w-100"
                         alt="programming"></div>
             </div>
             <div class="row">
-                <div
-                    class="col-md-6 d-flex align-items-center overflow-hidden px-0">
+                <div class="col-md-6 d-flex align-items-center overflow-hidden
+                    px-0 gs_reveal gs_reveal_fromLeft">
                     <img src="img/card_4.jpg"
                         class="img-fluid align-items-center img--hover h-100 w-100"
                         alt="programming"></div>
-                <div class="col-md-6 card__cont">
+                <div class="col-md-6 card__cont gs_reveal gs_reveal_fromRight">
                     <h3 class="text-center text-uppercase">klinika weterynaryjna
                     </h3>
                     <hr>
