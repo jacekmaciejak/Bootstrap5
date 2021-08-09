@@ -40,6 +40,19 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js">
     </script>
     <script src="js/animations.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+        src="https://www.googletagmanager.com/gtag/js?id=G-0G7P7EXELB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0G7P7EXELB');
+    </script>
     <!-- <script>
         function animateFrom(elem, direction) {
             direction = direction || 1;
