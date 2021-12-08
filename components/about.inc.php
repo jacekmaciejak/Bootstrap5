@@ -10,8 +10,15 @@
     <div class="container">
         <div class="row  align-items-center">
             <div class="p-3">
-                <h1 class="text-center gs_reveal gs_reveal_fromUp">O MNIE
-                </h1>
+                <div
+                    class="d-flex justify-content-center align-items-center mb-1 mb-md-5">
+                    <hr class="w-25"
+                        style="height:1px; color:#fff; opacity:1">
+                    <h1 class="text-center text-uppercase px-1 px-md-5">
+                        o mnie</h1>
+                    <hr class="w-25"
+                        style="height:1px; color:#fff; opacity:1">
+                </div>
                 <img src="img/feature.svg"
                     alt="feature image"
                     class="img-fluid gs_reveal gs_reveal_fromRight">
@@ -21,10 +28,11 @@
                     Bootstrap 4/5, WordPress, Git, Node.js oraz metodologi BEM.
                     We
                     wszystkich projektach stosuję standardy Responsive Web
-                    Design oraz Grid i Flexbox. Codziennie ciężko pracuję aby
-                    zdobywać nowe doświadczenie w kodowaniu stron internetowych
+                    Design oraz Grid i Flexbox. Codziennie
+                    zdobywam nowe doświadczenie w kodowaniu stron internetowych
                     i programowaniu aplikacji w JavaScript ES6 oraz bibliotece
-                    jQuery i React. Posiadam podstawowe doświadczenie w PHP.
+                    jQuery i React. Posiadam wiedzę o PHP na poziomie swobodnej
+                    pracy w WordPressie.
                     Potrafię dostosować się do wymagań projektu jak
                     również lubię współpracować w zespole. Z przyjemnością
                     nawiążę współpracę, która umożliwi mi dalszy rozwój. </p>

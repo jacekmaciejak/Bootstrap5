@@ -1,9 +1,16 @@
 <section class="projects gs_reveal opacity_anim">
         <div class="container text-center">
                 <div class="row g-3 text-uppercase">
-                        <h1 class="text-center text-uppercase">
-                                projekty
-                        </h1>
+                        <div
+                                class="d-flex justify-content-center align-items-center mb-1 mb-md-5">
+                                <hr class="w-25"
+                                        style="height:1px; color:#05cdfc; opacity:1">
+                                <h1
+                                        class="text-center text-uppercase px-1 px-md-5">
+                                        projekty</h1>
+                                <hr class="w-25"
+                                        style="height:1px; color:#05cdfc; opacity:1">
+                        </div>
                         <div class="col">
                                 <a href="https://jacekmaciejak.github.io/dream-holidays/"
                                         class="text-decoration-none"

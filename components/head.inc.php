@@ -10,8 +10,6 @@
     <link rel="stylesheet"
         href="css/bootstrap.css">
     <title>Jacek Maciejak</title>
-    <link rel="stylesheet"
-        href="css/styles.css">
 
     <link rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -20,12 +18,16 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css" />
+    <link rel="stylesheet"
+        href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js">
     </script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
-        referrerpolicy="no-referrer"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js">
     </script>
     <script>
@@ -33,8 +35,6 @@
             const loader = document.querySelector(".loader");
             loader.className += " hidden";
         });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js">
     </script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js">
@@ -53,6 +53,7 @@
 
         gtag('config', 'G-0G7P7EXELB');
     </script>
+
     <!-- <script>
         function animateFrom(elem, direction) {
             direction = direction || 1;

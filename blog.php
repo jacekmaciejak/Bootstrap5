@@ -1,5 +1,5 @@
 <?php require('components/head.inc.php');?>
-<?php require('components/navbar.inc.php');?>
+<?php require('components/navbar_blog.inc.php');?>
 <section id='blog'
     class="container col-md-12 blog d-grid align-items-center my-5">
     <div

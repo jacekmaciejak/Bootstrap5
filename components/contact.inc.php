@@ -1,13 +1,20 @@
 <section class="contact"
     id="kontakt">
-    <div class="container pb-5">
+    <div class="container py-5">
         <div class="row align-items-center justify-contend-center pb-5">
-            <h1 class="text-center text-uppercase mb-5 gs_reveal
-                gs_reveal_fromUp">kontakt
-            </h1>
+            <div
+                class="d-flex justify-content-center align-items-center mb-1 mb-md-5">
+                <hr class="w-25"
+                    style="height:1px; color:#05cdfc; opacity:1">
+                <h1 class="text-center text-uppercase px-1 px-md-5">
+                    kontakt</h1>
+                <hr class="w-25"
+                    style="height:1px; color:#05cdfc; opacity:1">
+            </div>
             <div class="
                  col-md-7 order-2 order-md-1 gs_reveal gs_reveal_fromLeft">
                 <form class="form"
+                    id="form"
                     autocomplete="off"
                     method="post"
                     action="kontakt.php">
@@ -41,9 +48,12 @@
                             required></textarea>
                     </div>
                     <div class="form__group">
-                        <button class="email__button"
+                        <button class="email__button g-recaptcha"
                             name="submit"
-                            type="submit">
+                            type="submit"
+                            data-sitekey="reCAPTCHA_site_key"
+                            data-callback='onSubmit'
+                            data-action='submit'>
                             Wyślij &rarr;
                         </button>
                     </div>

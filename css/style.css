@@ -9,6 +9,12 @@ p {
     font-size: 1.5rem;
 }
 
+@media (max-width:400px) {
+    p {
+        font-size: 1.1rem;
+    }
+}
+
 .page-header {
     color: #fff;
 }
@@ -49,8 +55,6 @@ p {
 /*----------------NAVBAR----START----------------*/
 /*----------------NAVBAR----START----------------*/
 /*----------------NAVBAR----START----------------*/
-/*----------------NAVBAR----START----------------*/
-/*----------------NAVBAR----START----------------*/
 
 .navigation__link span {
     display: none;
@@ -72,22 +76,21 @@ p {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
-
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .logo {
     line-height: 50px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     float: left;
-
 }
 
 .logo__link {
     text-decoration: none;
     color: rgb(50, 50, 50);
-    padding: 0 20px;
+    padding: 0 17px;
 }
 
 /* .navigation__nav {
@@ -142,8 +145,6 @@ p {
 }
 
 @media (max-width:991px) {
-
-
     .logo {
         display: none;
     }
@@ -439,11 +440,11 @@ footer {
 .popover-header {
     text-align: center;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .popover-body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -605,90 +606,112 @@ footer {
 }
 
 .panel div:hover:nth-child(6) a {
-    background: #8a61c1;
+    background: #787CB4;
 }
 
 .panel div:hover:nth-child(6) a:before {
-    background: #7847b8;
+    background: #6469b4;
 }
 
 .panel div:hover:nth-child(6) a:after {
-    background: #956cc6;
+    background: #8f92b9;
 }
 
 .panel div:hover:nth-child(7) a {
-    background: #33ff33;
+    background: #21759B;
 }
 
 .panel div:hover:nth-child(7) a:before {
-    background: #00e600;
+    background: #05628d;
 }
 
 .panel div:hover:nth-child(7) a:after {
-    background: #66ff66;
+    background: #6592a8;
 }
 
 .panel div:hover:nth-child(8) a {
-    background: #ff5500;
+    background: #8a61c1;
 }
 
 .panel div:hover:nth-child(8) a:before {
-    background: #cc4400;
+    background: #7847b8;
 }
 
 .panel div:hover:nth-child(8) a:after {
-    background: #ff7733;
+    background: #956cc6;
 }
 
 .panel div:hover:nth-child(9) a {
-    background: #ff0066;
+    background: #33ff33;
 }
 
 .panel div:hover:nth-child(9) a:before {
-    background: #cc0052;
+    background: #00e600;
 }
 
 .panel div:hover:nth-child(9) a:after {
-    background: #ff3385;
+    background: #66ff66;
 }
 
 .panel div:hover:nth-child(10) a {
-    background: #cf649a;
+    background: #ff5500;
 }
 
 .panel div:hover:nth-child(10) a:before {
-    background: #c33c80;
+    background: #cc4400;
 }
 
 .panel div:hover:nth-child(10) a:after {
-    background: #db8ab3;
+    background: #ff7733;
 }
 
 .panel div:hover:nth-child(11) a {
-    background: #e4405f;
+    background: #ff0066;
 }
 
 .panel div:hover:nth-child(11) a:before {
-    background: #d02d4c;
+    background: #cc0052;
 }
 
 .panel div:hover:nth-child(11) a:after {
-    background: #f1395c;
+    background: #ff3385;
 }
 
 .panel div:hover:nth-child(12) a {
-    background: #61dbfb;
+    background: #cf649a;
 }
 
 .panel div:hover:nth-child(12) a:before {
-    background: #38d3fa;
+    background: #c33c80;
 }
 
 .panel div:hover:nth-child(12) a:after {
-    background: #83e4fc;
+    background: #db8ab3;
 }
 
+.panel div:hover:nth-child(13) a {
+    background: #e4405f;
+}
 
+.panel div:hover:nth-child(13) a:before {
+    background: #d02d4c;
+}
+
+.panel div:hover:nth-child(13) a:after {
+    background: #f1395c;
+}
+
+.panel div:hover:nth-child(14) a {
+    background: #61dbfb;
+}
+
+.panel div:hover:nth-child(14) a:before {
+    background: #38d3fa;
+}
+
+.panel div:hover:nth-child(14) a:after {
+    background: #83e4fc;
+}
 
 /*---------------------*/
 /*-------TECHNOLOGY----END----*/
@@ -697,6 +720,74 @@ footer {
 /*---------------------*/
 /*-------CARDS----START----*/
 /*---------------------*/
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+        /* margin-left: 100%;
+        width: 300%; */
+    }
+
+    to {
+        opacity: 1;
+        /* margin-left: 0%;
+        width: 100%;
+        display: flex; */
+    }
+}
+
+.hide--project {
+    display: none;
+}
+
+.show--project {
+    display: flex;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+.button--services {
+    color: #fff;
+    font-size: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px !important;
+    padding: 30px !important;
+    box-shadow: 0 20px 40px -10px rgb(218, 216, 216) !important;
+}
+
+
+.button--services i {
+    color: #fff;
+    font-size: 40px;
+    line-height: 0 !important;
+    padding: 10px;
+}
+
+@media(max-width: 400px) {
+    .button--services {
+        font-size: 14px !important;
+        flex-direction: column;
+        padding: 10px !important;
+    }
+
+    .button--services i {
+        font-size: 30px;
+        padding: 25px;
+    }
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+    line-height: 0;
+}
+
+#delete i {
+    color: rgb(241, 127, 127);
+}
+
 .img--hover {
     position: relative;
     object-fit: cover;
@@ -777,6 +868,8 @@ footer {
     margin: 10px auto 0;
     position: relative;
     z-index: 100;
+    text-transform: uppercase;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
 }
 
 .card__button::before {
@@ -803,6 +896,97 @@ footer {
     left: 100%;
 }
 
+
+/* .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+} */
+/*
+.tz-gallery {
+    padding: 40px;
+} */
+
+@media(max-width: 1000px) {
+    .tz-gallery {
+        padding: 15px;
+    }
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row>div {
+    padding: 2px;
+    overflow: hidden;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lightbox img {
+    transition: .5s;
+
+}
+
+.lightbox img:hover {
+    box-sizing: border-box;
+    transform: scale(1.2);
+    transition: all .2s linear;
+}
+
+/* .tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: url('../img/logo/search.svg');
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+} */
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+#baguetteBox-overlay .full-image img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 80% !important;
+    vertical-align: middle;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
 /*---------------------*/
 /*------CARDS----END----*/
 /*---------------------*/
@@ -815,6 +999,11 @@ footer {
 #kontakt {
     position: relative;
     /* z-index: 9999; */
+}
+
+form {
+    padding: 2rem 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .form__input {
@@ -881,6 +1070,7 @@ footer {
     text-decoration: none;
     font-size: 16px;
     border-radius: 3px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 
 
@@ -929,6 +1119,11 @@ footer {
     position: relative;
     list-style: none;
     margin: 10px 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+.social-icon ul li:hover {
+    box-shadow: none;
 }
 
 .social-icon ul li:before {
@@ -938,7 +1133,7 @@ footer {
     bottom: -4px;
     width: 50px;
     height: 8px;
-    background: #000;
+    background: #fff;
     border-radius: 50%;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -950,7 +1145,7 @@ footer {
 }
 
 .social-icon ul li:hover:before {
-    opacity: .2;
+    opacity: .6;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
@@ -967,6 +1162,7 @@ footer {
 .social-icon ul li:hover a {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+
 }
 
 .social-icon ul li a span {
@@ -993,6 +1189,7 @@ footer {
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
+    color: #fff;
 }
 
 .social-icon ul li:hover a span:before {

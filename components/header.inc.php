@@ -1,8 +1,8 @@
 <header id="page-header"
-    class="page-header gradient h-auto pt-5">
-    <div class="container pt-5">
+    class="page-header gradient h-auto pt-5 ">
+    <div class="container pt-5 mt-2">
         <div class="row justify-contend-center align-items-center">
-            <div class="col-md-6">
+            <div class="col-md-6 image__title">
                 <h1 class="text-uppercase fw-bold">Front-end developer
                 </h1>
                 <h2>Jacek Maciejak</h2>
@@ -11,12 +11,12 @@
                     Zapraszam Cię do zapoznania z moimi projektami. </p>
                 <button type="button"
                     class="card__button btn-large"
-                    onclick="window.location.href='blog.php'">Blog</button>
+                    onclick="window.location.href='#projekty'">Projekty</button>
                 <button type="button"
                     class="card__button btn-large"
                     onclick="window.location.href='#kontakt'">Kontakt</button>
             </div>
-            <div class="col-md-6"><img class="w-100"
+            <div class="col-md-6 "><img class="w-100 image__title"
                     src="
                     img/title.svg"
                     alt="title"></div>

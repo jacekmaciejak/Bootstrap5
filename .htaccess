@@ -1,12 +1,11 @@
-#Przekierowanie na bezWWW
 Options +FollowSymLinks
+Options +MultiViews
 RewriteEngine on
-DirectoryIndex index.html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
+RewriteRule ^ /%1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www.jacekmaciejak.pl$ [NC]
 RewriteRule ^(.*)$ http://jacekmaciejak.pl/$1 [R=301,L]
 ErrorDocument 404 /404.php
-# 301 Redirect Entire Directory
-RedirectMatch 301 jacekmaciejak.pl/#main(.*) jacekmaciejak.pl/strona-glowna/$1
 
 
 
